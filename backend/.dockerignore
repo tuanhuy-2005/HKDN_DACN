@@ -1,0 +1,7 @@
+vendor
+storage/*.sqlite
+storage/*.sqlite-journal
+public/uploads/*
+.env
+.git
+.gitignore

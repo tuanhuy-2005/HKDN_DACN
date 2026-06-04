@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend: serve (PHP)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "cd backend; php -S 127.0.0.1:8000 -t public public/router.php"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: dev (Next.js)",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-Command",
+        "cd frontend; npm.cmd run dev"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
